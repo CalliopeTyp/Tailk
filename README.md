@@ -40,10 +40,13 @@ cd "YOUR_COPIED_BASH"
 
 ### 2. Install Dependencies
 Install all required Node.js packages (Electron, Ollama SDK, etc.):
-```bash
+
 npm install
-```bash
+
 ###3. Run it
 Type this command in your Terminal/Powershell
 
 npm start
+
+###3. Install model
+When your in the app, you need to install a AI model from ollama like qwen2:0.5b or llama3
