@@ -34,10 +34,17 @@ Make sure the following tools are installed on your system before running the ap
 Since this project runs directly from the source folder without a pre-built executable, you can start the application easily via your terminal or PowerShell:
 
 ### 1. Open the Project Folder
-Open your terminal (PowerShell, Command Prompt, or bash) inside the folder containing the project files (`main.js`, `index.html`, `package.json`, etc.).
+Go in the projectfolder, copy the bash and bast it in your Terminal/Powershell
+```bash
+cd "YOUR_COPIED_BASH"
 
 ### 2. Install Dependencies
 Install all required Node.js packages (Electron, Ollama SDK, etc.):
 
 ```bash
 npm install
+
+###3. Run it
+Type this command in your Terminal/Powershell
+```bash
+npm start
