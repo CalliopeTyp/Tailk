@@ -43,10 +43,10 @@ Install all required Node.js packages (Electron, Ollama SDK, etc.):
 
 npm install
 
-###3. Run it
+### 3. Run it
 Type this command in your Terminal/Powershell
 
 npm start
 
-###3. Install model
+### 4. Install model
 When your in the app, you need to install a AI model from ollama like qwen2:0.5b or llama3
