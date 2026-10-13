@@ -34,7 +34,7 @@ Make sure the following tools are installed on your system before running the ap
 Since this project runs directly from the source folder without a pre-built executable, you can start the application easily via your terminal or PowerShell:
 
 ### 1. Open the Project Folder
-Go in the projectfolder, copy the bash and bast it in your Terminal/Powershell
+Go in the projectfolder, copy the bash and paste it in your Terminal/Powershell
 ```
 cd "YOUR_COPIED_BASH"
 ```
