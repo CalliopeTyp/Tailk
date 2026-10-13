@@ -6,12 +6,12 @@
 
 ## Features
 
-- **Local AI Duels:** Run debates between any installed Ollama models (e.g., Llama 3, Mistral, Qwen).
+- **Local AI Duels:** Run debates or conversations between any installed Ollama models (e.g., Llama 3, Mistral, Qwen).
 - **Real-Time Streaming:** Watch models generate responses token-by-token in a modern chat bubble interface.
-- **In-App Model Management:** Download new models directly inside the UI using `ollama pull` with real-time download progress.
-- **Customizable Dynamics:** Adjust System Prompts, initial start topics, token length caps, and timeout limits.
+- **In-App Model Management:** Download new models directly inside the UI using `ollama pull` with real-time download progress and status updates.
+- **Customizable Settings:** Adjust System Prompts, initial start topics, token length caps, and timeout limits.
 - **Infinite Chat Mode:** Switch seamlessly between a fixed number of turns and an endless conversation loop.
-- **Full Execution Control:** Pause, resume, or cancel/clear conversations at any time.
+- **Full Control:** Pause, resume, or cancel/clear conversations at any time.
 
 ---
 
@@ -24,22 +24,20 @@ Make sure the following tools are installed on your system before running the ap
    👉 [https://nodejs.org/](https://nodejs.org/)
 
 2. **Ollama**:  
-   Download and install the local LLM runner:  
+   Download, install, and run the local LLM runner:  
    👉 [https://ollama.com/](https://ollama.com/)
-
-3. **Git** *(optional, for cloning the repository)*:  
-   👉 [https://git-scm.com/](https://git-scm.com/)
 
 ---
 
-## How to Run (Development Mode)
+## How to Run from Source
 
-Since pre-built binary installers (`.exe`) are not distributed with the source code, you can easily run the application directly from your terminal or PowerShell:
+Since this project runs directly from the source folder without a pre-built executable, you can start the application easily via your terminal or PowerShell:
 
-### 1. Clone or Download the Repository
+### 1. Open the Project Folder
+Open your terminal (PowerShell, Command Prompt, or bash) inside the folder containing the project files (`main.js`, `index.html`, `package.json`, etc.).
 
-Clone this repository or download and extract the ZIP archive:
+### 2. Install Dependencies
+Install all required Node.js packages (Electron, Ollama SDK, etc.):
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/tailk-app.git](https://github.com/YOUR_USERNAME/tailk-app.git)
-cd tailk-app
+npm install
